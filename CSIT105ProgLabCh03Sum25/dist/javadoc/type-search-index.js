@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"csit105proglabch03sum25","l":"BatchTestSodaV2"},{"p":"csit105proglabch03sum25","l":"CSIT105ProgLabCh03Sum25"},{"p":"csit105proglabch03sum25","l":"Soda"}];updateSearchResults();

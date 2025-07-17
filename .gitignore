@@ -22,3 +22,9 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+/CSIT105LabCh02Sum25/nbproject/private/
+/CSIT105LabCh02Sum25/build/
+/CSIT105LabCh07Sum25/nbproject/private/
+/CSIT105LabCh07Sum25/build/
+/CSIT105Proj01Sum25/nbproject/private/
+/CSIT105Proj01Sum25/build/
