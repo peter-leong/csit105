@@ -1,0 +1,56 @@
+Americone Dream (R),38,43,48,54,70,91,118,82,57,45,36,28
+Brewed to Matter (TM),27,31,35,39,50,65,84,58,40,32,25,20
+Cannoli,27,30,34,38,49,63,81,56,39,31,24,19
+Caramel Chocolate Cheesecake,25,28,32,36,46,59,76,53,37,29,23,18
+Change is Brewing,25,28,32,36,46,59,76,53,37,29,23,18
+Cherry Banana,31,35,39,44,57,74,96,67,46,36,28,22,40,40
+Cherry Garcia (R),40,45,51,57,74,96,124,86,60,48,38,30
+Chocolate Caramel Cookie Dough,24,27,30,34,44,57,74,51,35,28,22,17
+Chocolate Chip Cookie Dough,43,48,54,61,79,102,132,92,64,51,40,32
+Chocolate Fudge Brownie,41,46,52,58,75,97,126,88,61,48,38,30
+Chocolate Peanut Butter Split,25,28,32,36,46,59,76,53,37,29,23,18
+Chocolate Shake It (TM),32,36,40,45,58,75,97,67,46,36,28,22
+Chocolate,  Strawberry and Mango,28,32,36,41,53,68,88,61,42,33,26,20
+Chocolate Therapy (R),33,37,42,47,61,79,102,71,49,39,31,24
+Chubby Hubby (R),35,39,44,49,63,81,105,73,51,40,32,25
+Chunky Monkey (R),40,45,51,57,74,96,124,86,60,48,38,30
+Cinnamon Buns (R),33,37,42,47,61,79,102,71,49,39,31,24
+Coffee Coffee BuzzBuzzBuzz! (R),28,32,36,41,53,68,88,61,42,33,26,20
+Coffee Toffee Bar Crunch,26,29,33,37,48,62,80,56,39,31,24,19
+Cold Brew Caramel Latte ,32,36,41,46,59,76,98,68,47,37,29,23
+Everything But The (R),26,29,33,37,48,62,80,56,39,31,24,19
+Gimme S'more! (TM),28,32,36,41,53,68,88,61,42,33,26,20
+Glampfire Trail Mix (TM),28,32,36,40,52,67,87,60,42,33,26,20
+Go-To Cold Brew (TM),28,32,36,40,52,67,87,60,42,33,26,20
+Gronsky's Delight,24,27,30,34,44,57
+Half Baked (R),43,48,54,61,79,102,132,92,64,51,40,32
+Ice Cream Sammie,34,38,43,48,62,80,104,72,50,40,32,25
+Justice ReMix'd  (TM),24,27,30,34,44,57,74,51,35,28,22,17
+Milk & Cookies,39,44,49,55,71,92,119,83,58,46,36,28
+Mint Chocolate Cookie,27,30,34,38,49,63,81,56,39,31,24,19
+Minter Wonderland (TM),34,38,43,48,62,80,104,72,50,40,32,25
+Netflix & Chilll'd (TM),28,32,36,41,53,68,88,61,42,33,26,20
+New York Super Fudge Chunk (R),28,32,36,41,53,68,88,61,42,33,26,20
+Oat of This Swirled (TM),27,30,34,38,49,63,81,56,39,31,24,19
+PB Over the Top,25,28,32,36,46,59,76,53,37,29,23,18
+Peanut Butter Cup,27,31,35,39,50,65,84,58,40,32,25,20
+Peanut Butter Half Baked (R),32,36,40,45,58,75,97,67,46,36,28,22
+Peanut Butter mmmmmmmmm,29,33,37,42,54,70,91,63,44,35,28,22,37,25
+Peanut Butter World (R),28,32,36,40,52,67,87,60,42,33,26,20
+Phish Food (R),46,52,58,65,84,109,141,98,68,54,43,34
+Pistachio Pistachio,24,27,31,35,45,58,75,52,36,28,22,17
+Pumpkin Cheesecake,26,29,33,37,48,62,80,56,39,31,24,19
+Punch Line (TM),26,29,33,37,48,62,80,56,39,31,24,19
+Salted Caramel Almond,32,36,40,45,58,75,97,67,46,36,28,22
+Salted Caramel Brownie,34,38,43,48,62,80,104,72,50,40,32,25
+Strawberry Cheesecake,39,44,49,55,71,92,119,83,58,46,36,28
+Strawberry Topped Tart,26,29,33,37,48,62,80,56,39,31,24,19
+The Tonight Dough (R),41,46,52,58,75,97,126,88,61,48,38,30
+Thick Mint,34,38,43,48,62,80,104,72,50,40,32,25
+Tiramisu,28,32,36,41,53,68,88,61,42,33,26,20
+Totaly Addictive,31,35,39,44,57,74,96,67,46,36,28,22
+Totally Unbaked (TM),28,32,36,41,53,68,88,61,42,33,26,20
+Triple Caramel Chunk (R),32,36,41,46,59,76,98,68,47,37,29,23
+Vanilla,24,27,31,35,45,58,75,52,36,28,22,17
+Vanilla Caramel Fudge,24,27,30,34,44,57,74,51,35,28,22,17
+Whiskey Biz (TM),28,32,36,41,53,68,88,61,42,33,26,20
