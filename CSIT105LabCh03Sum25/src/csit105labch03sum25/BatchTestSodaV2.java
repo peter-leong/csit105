@@ -113,7 +113,7 @@ public class BatchTestSodaV2 {
             System.out.println("\nSetters - \t\tissues - see above");
         }
 
-        // display summary
+        // display summary  
         if (returnResult == 0) {
             System.out.println("\nAll tests good");
         } else {

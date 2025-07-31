@@ -27,12 +27,13 @@ public class CSIT105LabCh08Sum25 {
         String[] iceCreamName = new String[MAX_NUM_ICE_CREAMS];
         String[] monthNames = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 
-        double percentOfTotal;
+        double percentOfGrandTotal;
         
         int[][] iceCreamSalesByMonth = new int[MAX_NUM_ICE_CREAMS][12];
         int numIceCreams = 0;
         int[] mthTotal = new int[12];
         int rowTotal;
+        int grandTotal = 0;
         int badRows = 0;
         
         // Open files
@@ -53,7 +54,7 @@ public class CSIT105LabCh08Sum25 {
                 iceCreamName[numIceCreams] = tokens[0];
 
                 for (int month = 1; month <= mthTotal.length; month++) {
-                    iceCreamSalesByMonth[numIceCreams][month - 1] = Integer.parseInt(tokens[month].trim());
+                    grandTotal += iceCreamSalesByMonth[numIceCreams][month - 1] = Integer.parseInt(tokens[month].trim());
                 }
 
                 numIceCreams++;
@@ -71,7 +72,7 @@ public class CSIT105LabCh08Sum25 {
         // display column headers
         System.out.printf("\n%-32s ", "Ice Cream Name");
         for (int month = 0; month < mthTotal.length; month++) {
-            System.out.printf("%4s ", monthNames[month]);
+            System.out.printf("%6s ", monthNames[month]);
         }
         System.out.printf("%6s %6s\n\n", "Total", "%");
 
@@ -84,28 +85,36 @@ public class CSIT105LabCh08Sum25 {
 
             // display month data
             for (int month = 0; month < mthTotal.length; month++) {
-                System.out.printf("%4d ", iceCreamSalesByMonth[iceCream][month]);
+                System.out.printf("%6d ", iceCreamSalesByMonth[iceCream][month]);
                 // total row
                 rowTotal += iceCreamSalesByMonth[iceCream][month];
                 // total col
                 mthTotal[month] += iceCreamSalesByMonth[iceCream][month];
             }
-            System.out.printf("%,6d\n", rowTotal);
+            System.out.printf("%,6d ", rowTotal);
             
-            
+            // display row total relative % to grand total
+            percentOfGrandTotal = (double) rowTotal / grandTotal * 100;
+            System.out.printf("%6.1f\n", percentOfGrandTotal);
         }
 
         // display month totals
         rowTotal = 0;
 
-        System.out.printf("\n%-32s ", "Total");
+        System.out.printf("\n%32s ", "Total");
         for (int month = 0; month < mthTotal.length; month++) {
-            System.out.printf("%4d ", mthTotal[month]);
+            System.out.printf("%,6d ", mthTotal[month]);
             rowTotal += mthTotal[month];
         }
         System.out.printf("%,6d\n", rowTotal);
+        
+        System.out.printf("\n%32s ", "%");
+        for (int month = 0; month < mthTotal.length; month++) {
+            percentOfGrandTotal = (double) mthTotal[month] / grandTotal * 100;
+            System.out.printf("%6.1f ", percentOfGrandTotal);
+        }
 
-        System.out.println(numIceCreams + " ice creams loaded from file " + filename);
+        System.out.println("\n\n" + numIceCreams + " ice creams loaded from file " + filename);
         System.out.println(badRows + " bad rows written to file " + badFilename);
 
     }
